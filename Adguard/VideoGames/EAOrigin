@@ -1,0 +1,79 @@
+#Start of Gameindustry Main Template
+##https://raw.githubusercontent.com/KodoPengin/GameIndustry-hosts-Template/master/Main-Template/hosts
+# Electronic Arts, Inc.
+# Origin Launcher
+# Für den Client oder Spiele nicht benötigt
+||vpc-prod-heartbeat-439069019.us-east-1.elb.amazonaws.com
+@@||heartbeat.dm.origin.com # Wird zum Login mit VPN benötigt - Sonst Blockieren...
+||pin-river.data.ea.com
+||gosca18.ea.com
+||pin-em.data.ea.com
+||recommendations.tnt-ea.com
+||c.go-mpulse.net
+||2e33b7cf.mpstat.us
+@@||river.data.ea.com
+||gen4.reports.tools.gos.ea.com
+# Chat & Freunde bei Bedarf de/aktivieren
+@@||friends.dm.origin.com # Freundesliste
+@@||chat.dm.origin.com # Chatfunktion
+@@||rtm.tnt-ea.com
+@@||antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
+@@||antelope-rtm-prod-black-519949175.us-east-1.elb.amazonaws.com
+@@||antelope-rtm-prod-white-483967324.us-east-1.elb.amazonaws.com
+@@||groups.gameservices.ea.com
+# Cloud und Websocketkommunikation
+@@||achievements.gameservices.ea.com # Erfolge...
+@@||cloudsync-prod.s3.amazonaws.com # Cloudsaves/Profileinstellungen usw.
+@@||dl.dropbox.com # Dienst auch in anderen Anwendungen integriert. Nur bei Bedarf blockieren - Zuständig für Crashreports
+||stage.secure.download.dm.origin.com # Cloudsync Dateitypen Blacklist
+||dirtybits.api.origin.com # ?
+@@||use.typekit.net # Wird für das Aufrufen der Newslettereinstellungen benötigt
+# Für Funktionalität benötigt
+@@||signin.ea.com
+@@||accounts.ea.com
+@@||secure.download.dm.origin.com
+@@||lvlt.cdn.ea.com # Content/Downloadserver
+@@||gateway.ea.com # Displayname/Sichtbarkeit/letzte Logindaten/ID
+@@||origin-a.akamaihd.net # Download aktueller Clientversion
+@@||originassets.akamaized.net # Produktbilder
+# Apis sind abgesehen von Kernfunktionen ebenfalls für die gezeigten Shopangebote/Details zuständig
+@@||api1.origin.com # Autopatch, Produktzuordnungen, Authorisierungen, Länder Bannliste, Währung, Kaufdatum, Erfassung der Spielstarts, Multiplayerids, Spielsitzungen, Spielzeitdauer etc
+@@||api2.origin.com # Spielzeit, IP-Erfassung/Geodaten
+@@||api3.origin.com # SpielID's, MultiplayerID, letzte Spielsitzung und Zeitstempel
+@@||api4.origin.com # Telemetrie - leider verzahnt mit anderen Darstellungs/funktionen
+# Spieledaten wie z.b. Cover, Seitenzuordnungen, Spieleinfos etc
+@@||data1.origin.com
+@@||data2.origin.com
+@@||data3.origin.com
+@@||data4.origin.com
+# OriginWebHelperService.exe
+@@||e4894.g.akamaiedge.net
+# Neu dabei - geprüft Februar 2020
+||information-api-gateway-prod-blck.us-east-1.elasticbeanstalk.com
+# Sonstiges
+||09b5a91c7f2d383e9.gs.ea.com
+||0cf6c0df87dc9f73e.gs.ea.com
+||0a0f2aa0965ed4a40.gs.ea.com
+||036bdce1effdafbb4.gs.ea.com
+||05196775c0912488b.gs.ea.com
+||03e0279355465f8bc.gs.ea.com
+||0c14eda1ff93d3986.gs.ea.com
+||0543d8862727cf1e0.gs.ea.com
+||07a7ad9333cabe619.gs.ea.com
+||0ab2c6e49da4a3502.gs.ea.com
+||0c3d0ff1cff2a72a9.gs.ea.com
+||0dc5948d07b2684c3.gs.ea.com
+||03fd2e58e769a6f1f.gs.ea.com
+||03a4c502020d4ea47.gs.ea.com
+||03f94b757df37da66.gs.ea.com
+||09b039b90ee5e48a6.gs.ea.com
+||0955daf526e15ad28.gs.ea.com
+||0df42cc7484911469.gs.ea.com
+||0bcd99b427f2ef101.gs.ea.com
+||04b59136e1a643f38.gs.ea.com
+||0bcd99b427f2ef101.gs.ea.com
+||01e4757ac7e1e56c4.gs.ea.com
+||0b0449e21a4a7e7ba.gs.ea.com
+||0a7a1e036169de01a.gs.ea.com
+||0679d175b8912d4d7.gs.ea.com
+||0bb5efe081f99e8d0.gs.ea.com
