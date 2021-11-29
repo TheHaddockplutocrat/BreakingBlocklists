@@ -1,0 +1,52 @@
+#Start of Gameindustry Main Template
+##https://raw.githubusercontent.com/KodoPengin/GameIndustry-hosts-Template/master/Main-Template/hosts
+# Ubisoft Entertainment SA
+# Uplay Launcher
+# Integrierte/aufgerufene Dienste scheinen nach einiger Zeit zu variieren
+# Benötigte Verbindungen
+@@||lb-upc-dmx.ubisoft.com
+@@||public-ubiservices.ubi.com
+@@||ubistatic3-a.akamaihd.net
+@@||msr-api-ubiservices.ubi.com
+@@||ubisoft-avatars.akamaized.net
+@@||connect.ubi.com # Sessions, Serverzeit, UserIP/Name/ID, Twofaktor ja/nein, Validation Agegate usw
+@@||dmx.upc.ubisoft.com
+@@||useast1-public.aws-ubiservices.ubi.com
+# Clientupdates
+@@||e11196.d.akamaiedge.net
+# Cloudfront
+||d3c3cq33003psk.cloudfront.net # auch von der Seite von Nikon verwendet "opentag"
+# Spieledetails & Shop
+@@||store.ubi.com
+@@||static8.cdn.ubi.com
+@@||data.ubi.com
+@@||ubistatic2-a.akamaihd.net # CSS
+# Usertracking
+||metrics.ubi.com
+||smetrics.ubi.com
+||cdn.cquotient.com
+||opentag-stats.qubit.com
+||pixel.everesttech.net
+||cm.everesttech.net
+||sync-tm.everesttech.net
+||ads.scorecardresearch.com
+||ubisoftinternational.demdex.net
+||newton.demdex.net
+||ubisoftinternational.demdex.net
+||dpm.demdex.net
+||cdn.tagcommander.com
+||fls.doubleclick.net
+# News und Newsletter
+@@||public-rest.a.upc.ubisoft.com # Erfassung IPDaten und u.a. Auslieferung der News im Launcher
+@@||static2.cdn.ubi.com
+@@||t.news.ubisoft.com
+||news-page-themes-api.a.upc.ubisoft.com
+# Cloud / Speicherung von Spielständen
+@@||ocsp.digicert.com
+@@||ubisoft-uplay-savegames.s3.amazonaws.com
+@@||ubisoft-orbit-savegames.s3.amazonaws.com
+# Diverses
+||sigma.ubi.com
+||sigma-elb-1893274496.us-east-1.elb.amazonaws.com
+||ucppropagationservice.ubi.com
+
